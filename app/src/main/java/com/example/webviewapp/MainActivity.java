@@ -16,11 +16,11 @@ public class MainActivity extends AppCompatActivity {
     private WebViewClient myWebViewClient;
     private WebSettings myWebSetting;
     public void showExternalWebPage(){
-        myWebView.loadUrl("https://bitly.com/");
+        myWebView.loadUrl("https://www.svt.se/");
     }
 
     public void showInternalWebPage(){
-        myWebView.loadUrl("https://www.svt.se/");
+        myWebView.loadUrl("https://www.msn.com/sv-se/nyheter/utrikes/ny-analys-sverige-bommar-alla-klimatm%C3%A5l/ar-BB1lv1E4?ocid=msedgntp&pc=U531&cvid=4f17734e6c154f938ec047e1f9f4da63&ei=10");
     }
 
     @Override
